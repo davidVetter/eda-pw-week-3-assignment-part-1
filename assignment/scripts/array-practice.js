@@ -14,7 +14,7 @@ let favFood = ['pizza', 'pasta', 'noodles', 'steak', 'stir fry'];
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 
-console.log('My favorite foods are: ', favFood);
+console.log(`My favorite foods are: ${favFood.join(', ')}`);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
@@ -56,7 +56,8 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 
-
+favFood.push('sushi');
+console.log(`Added a food to the end - ${favFood.join(', ')}`);
 
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
@@ -65,6 +66,7 @@ console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
+
 
 
 // Example: Add an animal to the beginning using Array.unshift
