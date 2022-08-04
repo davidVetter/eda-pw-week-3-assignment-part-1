@@ -94,7 +94,8 @@ console.log('The foods are now', favFood);
 //      with another one of your favorite foods.
 //      Then log the updated array.
 
-
+favFood[1] = 'Chicken Parm';
+console.log('The foods are now', favFood);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
