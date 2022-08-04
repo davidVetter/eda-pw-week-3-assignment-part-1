@@ -115,3 +115,6 @@ console.log(`My favorite foods are ${favFood.join(' and ')}`);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+const combineArray = favFood.concat(animalArray);
+console.log('The new array with both combined is: ', combineArray);
